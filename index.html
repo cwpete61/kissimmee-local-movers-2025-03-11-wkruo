@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kissimmee Local Movers - Fast and Reliable Moving Services</title>
     <meta name="description" content="Professional moving services in Kissimmee. Licensed, insured, and affordable local movers for all your relocation needs.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">Kissimmee Movers</a>
+                <a href="https://cwpete61.github.io/kissimmee-local-movers-2025-03-11-wkruo" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Kissimmee Movers</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://kissimmeemovers.net" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors duration-300">Get Quote</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+
+                <!-- Quote Button (Desktop) -->
+                <a href="https://kissimmeemovers.net" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">Get Quote</a>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <div class="flex flex-col space-y-4 p-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                    <a href="https://kissimmeemovers.net" class="bg-blue-600 text-white px-6 py-2 rounded-full text-center hover:bg-blue-700 transition-all duration-300">Get Quote</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -28,12 +61,12 @@
     <!-- Hero Section -->
     <section class="pt-32 pb-24 bg-gradient-to-r from-blue-50 to-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">Kissimmee Local Movers</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-8">Fast and Reliable Mover In The Kissimmee Area</p>
+            <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">Professional Moving Services in Kissimmee</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8">Experience stress-free relocation with Central Florida's most trusted moving company</p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="https://kissimmeemovers.net" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Get Free Quote</a>
-                    <a href="#contact" class="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">Contact Us</a>
+                    <a href="https://kissimmeemovers.net" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 hover:shadow-xl">Get Free Quote Today</a>
+                    <a href="#contact" class="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300 hover:shadow-lg transform hover:scale-105">Contact Our Team</a>
                 </div>
             </div>
         </div>
@@ -42,34 +75,34 @@
     <!-- Features Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Moving Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Comprehensive Moving Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18v18H3z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Small to Large Trucks</h3>
-                    <p class="text-gray-600">Fleet of various sized trucks to accommodate any move, from studio apartments to large homes.</p>
+                    <h3 class="text-xl font-bold mb-4">Versatile Fleet Solutions</h3>
+                    <p class="text-gray-600">From compact trucks for studio moves to full-size vehicles for estate relocations. Our diverse fleet ensures the perfect fit for your specific needs.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Fully Insured</h3>
-                    <p class="text-gray-600">Complete peace of mind with comprehensive insurance coverage for your belongings.</p>
+                    <h3 class="text-xl font-bold mb-4">Comprehensive Insurance</h3>
+                    <p class="text-gray-600">Full coverage protection with up to $1M in liability insurance. Your belongings are protected from pickup to delivery, guaranteed.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="300">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Licensed Professional</h3>
-                    <p class="text-gray-600">Fully licensed and certified moving professionals you can trust.</p>
+                    <h3 class="text-xl font-bold mb-4">Licensed Professionals</h3>
+                    <p class="text-gray-600">State-certified movers with extensive training in proper handling techniques and safety protocols. Trust our expertise for a smooth move.</p>
                 </div>
             </div>
         </div>
@@ -78,35 +111,107 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">The Kissimmee Movers Advantage</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Affordable</h3>
-                    <p class="text-gray-600">Competitive rates without compromising on service quality</p>
+                    <h3 class="text-xl font-bold mb-4">Competitive Pricing</h3>
+                    <p class="text-gray-600">Transparent, upfront pricing with no hidden fees. Save up to 20% compared to industry averages while receiving premium service.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Local Expertise</h3>
-                    <p class="text-gray-600">Deep knowledge of Kissimmee and surrounding areas</p>
+                    <h3 class="text-xl font-bold mb-4">Local Market Knowledge</h3>
+                    <p class="text-gray-600">Over 10 years of experience serving Kissimmee and surrounding communities. We know every neighborhood and building requirement.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Vetted Team</h3>
-                    <p class="text-gray-600">Background-checked and trained moving professionals</p>
+                    <h3 class="text-xl font-bold mb-4">Elite Moving Team</h3>
+                    <p class="text-gray-600">Carefully screened, highly trained professionals with an average of 5+ years experience. Background-checked and drug-tested for your peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">About Kissimmee Local Movers</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed" data-aos="fade-up">
+                    Founded in 2014, Kissimmee Local Movers began with a simple vision: to provide exceptional moving services that prioritize customer satisfaction and care. What started as a small family operation with just two trucks has grown into Central Florida's preferred moving company, serving thousands of satisfied customers annually.
+                </p>
+                <p class="text-gray-600 leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                    Our mission is to transform the moving experience from a stressful endeavor into a smooth, worry-free transition. We uphold core values of integrity, professionalism, and reliability in every move we handle. Our team's commitment to excellence and customer service has earned us a reputation as Kissimmee's most trusted moving partner.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The team was incredibly professional and efficient. They handled our 4-bedroom house move with exceptional care. Not a single item was damaged!"</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Best moving experience ever! The pricing was transparent and they finished ahead of schedule. Saved me both time and money."</p>
+                    <p class="font-semibold">Michael Rodriguez</p>
+                    <p class="text-sm text-gray-500">Business Owner</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Their attention to detail was impressive. They carefully wrapped all my antiques and even helped arrange furniture in my new home."</p>
+                    <p class="font-semibold">Emily Chen</p>
+                    <p class="text-sm text-gray-500">Interior Designer</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Relocated my office with zero downtime. Their commercial moving expertise really showed. Highly recommend!"</p>
+                    <p class="font-semibold">David Thompson</p>
+                    <p class="text-sm text-gray-500">CEO, Local Tech Startup</p>
                 </div>
             </div>
         </div>
@@ -115,31 +220,42 @@
     <!-- FAQ Section -->
     <section id="faq" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">What areas do you serve?</h3>
-                    <p class="text-gray-600">We primarily serve Kissimmee and surrounding areas, including greater Orlando region.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold mb-3">What areas do you serve in Central Florida?</h3>
+                    <p class="text-gray-600">We primarily serve Kissimmee, Orlando, St. Cloud, Lake Nona, and surrounding communities within a 50-mile radius. Long-distance moves are available upon request.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">Are you fully insured?</h3>
-                    <p class="text-gray-600">Yes, we carry comprehensive insurance coverage to protect your belongings during the move.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-lg font-semibold mb-3">How do you handle delicate or valuable items?</h3>
+                    <p class="text-gray-600">Our team uses specialized packing materials and techniques for valuable items. We offer custom crating services and extra insurance coverage for high-value belongings.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">How do you price your services?</h3>
-                    <p class="text-gray-600">We offer transparent pricing based on the size of your move, distance, and specific requirements.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-lg font-semibold mb-3">What is your pricing structure?</h3>
+                    <p class="text-gray-600">We offer hourly rates for local moves and flat rates for long-distance relocations. Factors include distance, volume, and specific services needed. All quotes include basic insurance coverage.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-lg font-semibold mb-3">How far in advance should I book?</h3>
+                    <p class="text-gray-600">We recommend booking 2-3 weeks in advance for local moves and 4-6 weeks for long-distance moves. Last-minute moves can often be accommodated based on availability.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-lg font-semibold mb-3">What insurance options do you provide?</h3>
+                    <p class="text-gray-600">Basic coverage is included with every move. We offer additional full-value protection options and specialized coverage for high-value items. All insurance details are clearly outlined in your moving contract.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="object-cover w-full h-full opacity-20" alt="Moving boxes background">
+        </div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Make Your Move?</h2>
-                <p class="text-xl text-blue-100 mb-8">Contact us today for a free, no-obligation quote</p>
-                <a href="https://kissimmeemovers.net" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300">Get Started</a>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8" data-aos="fade-up">Ready for a Stress-Free Move?</h2>
+                <p class="text-xl text-blue-100 mb-8" data-aos="fade-up" data-aos-delay="100">Get your personalized moving quote today and experience the difference with Kissimmee's most trusted movers</p>
+                <a href="https://kissimmeemovers.net" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">Get Your Free Quote</a>
             </div>
         </div>
     </section>
@@ -148,9 +264,9 @@
     <section id="contact" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Contact Us</h2>
-                <p class="text-xl text-gray-600 mb-8">Get in touch with our team</p>
-                <a href="mailto:carlos@kissimmeemovers.net" class="text-blue-600 text-xl hover:text-blue-700 transition-colors duration-300">carlos@kissimmeemovers.net</a>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8" data-aos="fade-up">Contact Us</h2>
+                <p class="text-xl text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="100">Our team is ready to assist you with any questions</p>
+                <a href="mailto:carlos@kissimmeemovers.net" class="text-blue-600 text-xl hover:text-blue-700 transition-colors duration-300 hover:underline" data-aos="fade-up" data-aos-delay="200">carlos@kissimmeemovers.net</a>
             </div>
         </div>
     </section>
@@ -161,13 +277,15 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Kissimmee Local Movers</h3>
-                    <p class="text-gray-400">Professional moving services you can trust</p>
+                    <p class="text-gray-400">Your trusted partner for professional moving services</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
@@ -178,8 +296,9 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://cwpete61.github.io/kissimmee-local-movers-2025-03-11-wkruo/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://cwpete61.github.io/kissimmee-local-movers-2025-03-11-wkruo/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://cwpete61.github.io/kissimmee-local-movers-2025-03-11-wkruo/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -192,6 +311,35 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
